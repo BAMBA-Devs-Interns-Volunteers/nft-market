@@ -1,0 +1,15 @@
+.signup-btn{
+    color: var(--color1);
+    font-size: 20px;
+    background-color: #4158D0;
+    background-image:  var(--gradient-2);
+}
+
+.scrolled{
+    background: rgb(0, 0, 0,0.7);
+    box-shadow: 3px 4px 6px 2px #000;
+}
+
+.nav-link{
+    font-size: 19px;
+}

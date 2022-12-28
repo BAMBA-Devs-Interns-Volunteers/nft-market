@@ -1,9 +1,14 @@
 import React from 'react';
+import Navbar  from './components/header/Navbar';
+// import "./index.css"
+import NftCards from './components/cards/NftCards';
 
 function App() {
   return (
     <div className="App">
-      <h3 className="text-primary text-lg text-center">Helo World</h3>
+      <Navbar/>
+      <NftCards/>
+    
     </div>
   );
 }
