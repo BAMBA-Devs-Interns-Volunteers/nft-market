@@ -19,27 +19,51 @@
   top: 20px;
   left: 60%;
   background: var(--gradient-3);
-  box-shadow: 2px 4px 27px 10px #e5e5eb;
+  opacity: 0.5;
+  box-shadow: 2px 4px 27px 10px #ac3898;
   backdrop-filter: (120px);
+  filter: blur(20px);
   border-radius: 50%;
   z-index: -10;
 }
 
-.effect-2 {
+.effect- {
     height: 200px;
     width: 200px;
     position: absolute;
     bottom: -50%;
     left: -1%;
     background: var(--gradient-4);
-    box-shadow: 40px 4px 27px 10px;
+    opacity: 0.5;
+    box-shadow: 40px 4px 27px 10px #556270;
     backdrop-filter: blur(80px);
+    /* filter: blur(3px); */
    -webkit-backdrop-filter: blur(80px);
     border-radius: 50%;
     z-index: -10;
   }
 
 
-  @media and screen (min: "600px"){
-    
+  @media  screen and (max-width: 600px){
+    .effect-1{
+      position: absolute;
+      top: 36%;
+      left: 60%;
+    }
+
+    .effect-2{
+      position: absolute;
+    bottom: -70%;
+      left: -20%;
+    }
   }
+
+
+
+
+  @keyframes shimmy {
+    to {
+      transform: translateX(-10%);
+    }
+  }
+  

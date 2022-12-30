@@ -6,8 +6,9 @@
 }
 
 .scrolled{
-    background: rgb(0, 0, 0,0.7);
-    box-shadow: 3px 4px 6px 2px #000;
+    background: rgb(0, 0, 0,0.6);
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    backdrop-filter: blur(80px);
 }
 
 .nav-link{
