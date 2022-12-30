@@ -22,7 +22,7 @@ const Hero = () => {
             <div className="col-lg-6 col-sm-12 pt-5">
                 <div className="hero-card  mx-auto rounded " style={{height: "100%", width:"50%"}}>
                     <div className="card-img  mx-auto">
-                        <img className="mx-auto img-fluid rounded" src={nft2} alt=""/>
+                        <img className="mx-auto img-fluid rounded-lg" src={nft2} alt=""/>
                     </div>
                     <div className="card-details d-flex align-items-center">
 

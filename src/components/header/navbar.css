@@ -5,10 +5,12 @@
     background-image:  var(--gradient-2);
 }
 
+/* NAVBAR SCROLLING EFFECT */
+
 .scrolled{
     background: rgb(0, 0, 0,0.6);
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
-    backdrop-filter: blur(80px);
+    backdrop-filter: blur(10px);
 }
 
 .nav-link{

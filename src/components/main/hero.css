@@ -1,16 +1,24 @@
+.hero-page {
+    position: relative;
+}
+
+
 .hero-card {
-  background: var(--glass-bg);
-  border-radius: 16px;
+  border-radius: 25% 0;
   box-shadow: var(--glass-shadow);
   backdrop-filter: var(--glass-backdrop);
   border: var(--border);
+  background: var(--glass-bg);
   position: relative;
 
 }
 
-.hero-page {
-    position: relative;
+.text-gray{
+  color: var(--color2)
 }
+
+
+/* THE COOL EFFECT BEHIND HOMEPAGE CARD */
 
 .effect-1 {
   height: 200px;
@@ -27,7 +35,7 @@
   z-index: -10;
 }
 
-.effect- {
+/* .effect- {
     height: 200px;
     width: 200px;
     position: absolute;
@@ -37,12 +45,14 @@
     opacity: 0.5;
     box-shadow: 40px 4px 27px 10px #556270;
     backdrop-filter: blur(80px);
-    /* filter: blur(3px); */
+    filter: blur(3px);
    -webkit-backdrop-filter: blur(80px);
     border-radius: 50%;
     z-index: -10;
-  }
+  } */
 
+
+  /* TARGETING ANDROID PHONES */
 
   @media  screen and (max-width: 600px){
     .effect-1{

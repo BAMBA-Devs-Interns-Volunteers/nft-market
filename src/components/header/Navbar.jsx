@@ -23,13 +23,13 @@ const Navbar = () => {
       className={!navColor ? "navbar navbar-light navbar-expand-lg" : "navbar scrolled navbar-expand-lg navbar-dark fixed-top"}
      
     >
-      <div className="container-fluid">
-          <a className="navbar-brand text-white fs-1" href="#">
-            Bamba
+      <div className="container-fluid mx-4">
+          <a className="navbar-brand text-white fs-2" href="#">
+            Bamba Nft
           </a>
-        <div className="ml-sm-2 d-none d-lg-inline d-xl-inline">
-          <a className="signup-btn btn py-2 px-3 mx-2 rounded">Signup</a>
-          <a className="signup-btn btn py-2 px-3">Login</a>
+        <div className=" d-none d-lg-inline d-xl-inline">
+          <a className="signup-btn btn py-1 px-3 mx-2 rounded">Connect</a>
+        
         </div>
         
         <button
@@ -51,19 +51,23 @@ const Navbar = () => {
           <ul className="navbar-nav ">
             <li className="nav-item">
               <a className="nav-link active text-white" aria-current="page" href="#">
-                Home
+                How it works
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link text-white" href="#">
-                Features
+                Benefits
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link text-white" href="#">
-                Pricing
+                Team
               </a>
             </li>
+            <div className="d-lg-none d-sm-inline ">
+          <a className="signup-btn btn py-1 px-3 rounded">Connect</a>
+        
+        </div>
           </ul>
         </div>
       </div>
