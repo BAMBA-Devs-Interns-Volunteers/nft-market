@@ -29,7 +29,7 @@
   background: var(--gradient-3);
   opacity: 0.5;
   box-shadow: 2px 4px 27px 10px #ac3898;
-  backdrop-filter: (120px);
+  backdrop-filter: (13px);
   filter: blur(20px);
   border-radius: 50%;
   z-index: -10;

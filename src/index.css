@@ -17,7 +17,7 @@ code {
 
   --glass-bg: rgba(255,255,255,0.5);
   --glass-shadow: 0px 4px 30px rgba(0,0,0,0.7);
-  --glass-backdrop: blur(10px);
+  --glass-backdrop: blur(20px);
   --border: 1px solid rgba(255,255,255,0.2);
   
 
