@@ -20,17 +20,18 @@ const Navbar = () => {
       style={{
         transition: "all 1s",
       }}
-      className={!navColor ? "navbar navbar-light navbar-expand-lg mx-5" : "navbar scrolled navbar-expand-lg navbar-dark fixed-top"}
+      className={!navColor ? "navbar navbar-light navbar-expand-lg" : "navbar scrolled navbar-expand-lg navbar-dark fixed-top"}
      
     >
       <div className="container-fluid">
-          <a className="navbar-brand text-white" href="#">
-            Navbar
+          <a className="navbar-brand text-white fs-1" href="#">
+            Bamba
           </a>
-        <div className="ml-sm-2">
+        <div className="ml-sm-2 d-none d-lg-inline d-xl-inline">
           <a className="signup-btn btn py-2 px-3 mx-2 rounded">Signup</a>
           <a className="signup-btn btn py-2 px-3">Login</a>
         </div>
+        
         <button
           className="navbar-toggler border-white"
           type="button"

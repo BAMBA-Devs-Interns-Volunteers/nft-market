@@ -1,14 +1,14 @@
 import React from 'react';
 import Navbar  from './components/header/Navbar';
-// import "./index.css"
 import NftCards from './components/cards/NftCards';
+import Hero from './components/main/Hero';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <NftCards/>
-    
+      {/* <NftCards/> */}
+    <Hero/>
     </div>
   );
 }

@@ -1,0 +1,45 @@
+.hero-card {
+  background: var(--glass-bg);
+  border-radius: 16px;
+  box-shadow: var(--glass-shadow);
+  backdrop-filter: var(--glass-backdrop);
+  border: var(--border);
+  position: relative;
+
+}
+
+.hero-page {
+    position: relative;
+}
+
+.effect-1 {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 20px;
+  left: 60%;
+  background: var(--gradient-3);
+  box-shadow: 2px 4px 27px 10px #e5e5eb;
+  backdrop-filter: (120px);
+  border-radius: 50%;
+  z-index: -10;
+}
+
+.effect-2 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    bottom: -50%;
+    left: -1%;
+    background: var(--gradient-4);
+    box-shadow: 40px 4px 27px 10px;
+    backdrop-filter: blur(80px);
+   -webkit-backdrop-filter: blur(80px);
+    border-radius: 50%;
+    z-index: -10;
+  }
+
+
+  @media and screen (min: "600px"){
+    
+  }

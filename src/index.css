@@ -1,5 +1,6 @@
 body {
   background-color: #000000f6;
+  overflow: hidden;
 }
 
 code {
@@ -11,6 +12,13 @@ code {
   --gradient-1: linear-gradient(43deg, #5e72d6 0%, #c850c0 46%, #ffcc70 100%);
   --gradient-2: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
   --gradient-3: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  --gradient-4: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+
+  --glass-bg: rgba(255,255,255,0.7);
+  --glass-shadow: 0px 4px 30px rgba(0,0,0,0.7);
+  --glass-backdrop: blur(10px);
+  --border: 1px solid rgba(255,255,255,0.2);
   
 
   --color1: brown;
