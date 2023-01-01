@@ -20,7 +20,7 @@ const Navbar = () => {
       style={{
         transition: "all 1s",
       }}
-      className={!navColor ? "navbar navbar-light navbar-expand-lg" : "navbar scrolled navbar-expand-lg navbar-dark fixed-top"}
+      className={!navColor ? "navbar navbar-dark navbar-expand-lg" : "navbar navbar-dark scrolled navbar-expand-lg fixed-top"}
      
     >
       <div className="container-fluid mx-4">
@@ -33,7 +33,7 @@ const Navbar = () => {
         </div>
         
         <button
-          className="navbar-toggler border-white"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -45,9 +45,7 @@ const Navbar = () => {
         </button>
         <div
           className="collapse navbar-collapse flex justify-content-end"
-          id="navbarNav"
-          style={{color: "white"}}
-        >
+          id="navbarNav">
           <ul className="navbar-nav ">
             <li className="nav-item">
               <a className="nav-link active text-white" aria-current="page" href="#">

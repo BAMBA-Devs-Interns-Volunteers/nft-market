@@ -13,14 +13,14 @@ const Hero = () => {
                 </h2>
                 <p className="text-gray text-left">Deploy your NFTs to the right audience. Grow your business with our fast growing market.</p>
                 <div className="d-flex align-items-center gap-2 mt-3">
-                    <a href="" className="btn px-4 text-white py-2 bg-primary">Get Started</a>
+                    <a href="" className="btn px-4 text-white py-2 bg-transparent border-2 border-success hover:bg-success">Get Started</a>
                     <a href="" className="btn px-4 text-white py-2 bg-secondary">Create NFT</a>
 
                 </div>
             </div>
 
             <div className="col-lg-6 col-sm-12 pt-5">
-                <div className="hero-card  mx-auto rounded " style={{height: "100%", width:"50%"}}>
+                <div className="hero-card  mx-auto rounded " style={{height: "100%", maxWidth:"40%"}}>
                     <div className="card-img  mx-auto">
                         <img className="mx-auto img-fluid rounded-lg" src={nft2} alt=""/>
                     </div>
