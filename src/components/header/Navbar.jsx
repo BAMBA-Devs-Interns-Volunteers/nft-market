@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { NavLink,Outlet } from "react-router-dom";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -16,7 +17,8 @@ const Navbar = () => {
   });
 
   return (
-    <nav
+    <div>
+      <nav
       style={{
         transition: "all 1s",
       }}
@@ -71,7 +73,12 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-    </nav>
+      </nav>
+
+      <main>
+        <Outlet />
+      </main>
+    </div>
   );
 };
 
