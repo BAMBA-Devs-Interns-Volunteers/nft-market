@@ -16,7 +16,8 @@ const Navbar = () => {
   });
 
   return (
-    <nav
+    <div>
+      <nav
       style={{
         transition: "all 1s",
       }}
@@ -69,7 +70,8 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-    </nav>
+      </nav>
+    </div>
   );
 };
 
