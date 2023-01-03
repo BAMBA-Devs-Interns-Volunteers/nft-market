@@ -1,17 +1,36 @@
 .hero-page {
     position: relative;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+    
 }
 
 
 .hero-card {
-  border-radius: 25% 0;
   box-shadow: var(--glass-shadow);
   backdrop-filter: var(--glass-backdrop);
   border: var(--border);
   background: var(--glass-bg);
-  position: relative;
+  /* position: relative; */
+}
 
+.hero-text{
+  background: var(--gradient-4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn2{
+  background-color: rgba(var(--btn-bg));
+  color: white;
+}
+
+.btn2:hover{
+  background: rgba(var(--btn-bg), 0.6);
+  color: white;
+}
+
+.bg-transparent{
+  border-color: var(--gradient-4);
 }
 
 .text-gray{
@@ -22,35 +41,21 @@
 /* THE COOL EFFECT BEHIND HOMEPAGE CARD */
 
 .effect-1 {
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 400px;
   position: absolute;
-  top: 20px;
-  left: 60%;
-  background: var(--gradient-3);
+  bottom: -110px;
+  right: -80px;
+  background: var(--gradient-4);
   opacity: 0.5;
   box-shadow: 2px 4px 27px 10px #ac3898;
-  backdrop-filter: (13px);
-  filter: blur(20px);
+  backdrop-filter: (20px);
+  filter: blur(70px);
   border-radius: 50%;
   z-index: -10;
-}
+  overflow-x: hidden;
 
-/* .effect- {
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    bottom: -50%;
-    left: -1%;
-    background: var(--gradient-4);
-    opacity: 0.5;
-    box-shadow: 40px 4px 27px 10px #556270;
-    backdrop-filter: blur(80px);
-    filter: blur(3px);
-   -webkit-backdrop-filter: blur(80px);
-    border-radius: 50%;
-    z-index: -10;
-  } */
+}
 
 
   /* TARGETING ANDROID PHONES */
@@ -72,9 +77,9 @@
 
 
 
-  @keyframes shimmy {
+  /* @keyframes shimmy {
     to {
       transform: translateX(-10%);
     }
   }
-  
+   */

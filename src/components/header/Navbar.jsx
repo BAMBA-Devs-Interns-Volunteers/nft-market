@@ -25,13 +25,10 @@ const Navbar = () => {
      
     >
       <div className="container-fluid mx-4">
-          <a className="navbar-brand text-white fs-2" href="#">
+          <a className="navbar-brand text-white fs-5 fw-bold" href="#">
             Bamba Nft
           </a>
-        <div className=" d-none d-lg-inline d-xl-inline">
-          <a className="signup-btn btn py-1 px-3 mx-2 rounded">Connect</a>
         
-        </div>
         
         <button
           className="navbar-toggler"
@@ -63,10 +60,7 @@ const Navbar = () => {
                 Team
               </a>
             </li>
-            <div className="d-lg-none d-sm-inline ">
-          <a className="signup-btn btn py-1 px-3 rounded">Connect</a>
-        
-        </div>
+    
           </ul>
         </div>
       </div>
