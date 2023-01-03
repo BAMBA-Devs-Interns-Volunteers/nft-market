@@ -13,6 +13,11 @@
   /* position: relative; */
 }
 
+.hero-card:hover > .card-ft{
+  display: block !important;
+  transition: all 1s ease-in;
+}
+
 .hero-text{
   background: var(--gradient-4);
   -webkit-background-clip: text;

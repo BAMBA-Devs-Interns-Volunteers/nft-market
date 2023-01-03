@@ -36,6 +36,10 @@ const Hero = () => {
               <p className="card-text fs-6"> 865 BNB
               </p>
             </div>
+
+            <div className="card-ft p-0 d-none">
+              <a href="" className="btn w-100 bg-primary text-white rounded-top-0">Buy now</a>
+            </div>
           </div>
         </div>
       </div>
