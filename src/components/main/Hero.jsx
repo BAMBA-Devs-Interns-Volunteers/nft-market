@@ -29,7 +29,7 @@ const Hero = () => {
         </div>
 
         <div className="col-lg-4 col-sm-12 pt-5">
-          <div className="card hero-card shadow-lg rounded-6">
+          <div className="card hero-card shadow-lg rounded-6 border-0">
             <img className="card-img-top img-responsive" style={{height: "20rem",objectFit: "cover"}} src={nft2} alt="Card image cap" />
             <div className="card-body bg-white">
               <h5 className="card-title fs-5">Beary Christmas</h5>
@@ -38,7 +38,7 @@ const Hero = () => {
             </div>
 
             <div className="card-ft p-0 d-none">
-              <a href="" className="btn w-100 bg-primary text-white rounded-top-0">Buy now</a>
+              <a href="" className="btn w-100 bg-primary text-white border-0 rounded-top-0">Buy now</a>
             </div>
           </div>
         </div>
