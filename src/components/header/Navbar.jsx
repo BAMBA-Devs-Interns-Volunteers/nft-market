@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { NavLink,Outlet } from "react-router-dom";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -72,10 +71,6 @@ const Navbar = () => {
         </div>
       </div>
       </nav>
-
-      <main>
-        <Outlet />
-      </main>
     </div>
   );
 };
