@@ -46,11 +46,11 @@
 /* THE COOL EFFECT BEHIND HOMEPAGE CARD */
 
 .effect-1 {
-  height: 400px;
+  height: 450px;
   width: 400px;
   position: absolute;
-  bottom: -110px;
-  right: -80px;
+  bottom: -40px;
+  right: -60px;
   background: var(--gradient-4);
   opacity: 0.5;
   box-shadow: 2px 4px 27px 10px #ac3898;
