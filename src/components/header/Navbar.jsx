@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./navbar.css";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [navColor, setnavColor] = useState(false);
@@ -25,9 +26,9 @@ const Navbar = () => {
      
     >
       <div className="container-fluid mx-4">
-          <a className="navbar-brand text-white fs-5 fw-bold" href="#">
+          <NavLink to='/bamba-nft' className="navbar-brand text-white fs-5 fw-bold" href="#">
             Bamba Nft
-          </a>
+          </NavLink>
         
         
         <button
@@ -46,19 +47,19 @@ const Navbar = () => {
           id="navbarNav">
           <ul className="navbar-nav ">
             <li className="nav-item">
-              <a className="nav-link active text-white" aria-current="page" href="#">
+              <NavLink to='/how-it-works' className="nav-link active text-white" aria-current="page">
                 How it works
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#">
+              <NavLink to='/benefits' className="nav-link text-white">
                 Benefits
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#">
+              <NavLink to='/team' className="nav-link text-white">
                 Team
-              </a>
+              </NavLink>
             </li>
     
           </ul>

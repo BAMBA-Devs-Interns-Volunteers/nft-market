@@ -2,6 +2,7 @@ import React from "react";
 import "./hero.css";
 import nft from "../../assets/img/nft.png";
 import nft2 from "../../assets/img/nft2.avif";
+import { NavLink } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -16,15 +17,12 @@ const Hero = () => {
             fast growing market.
           </p>
           <div className="d-flex align-items-center gap-2 mt-3">
-            <a
-              href=""
-              className="btn px-4 py-2 btn2 border-0"
-            >
+            <NavLink to='/get-started' className="btn px-4 py-2 btn2 border-0">
               Get Started
-            </a>
-            <a href="" className="btn px-4 text-white py-2 bg-transparent border-2 btn-transparent">
+            </NavLink>
+            <NavLink to='/connect' className="btn px-4 text-white py-2 bg-transparent border-2 btn-transparent">
               Connect
-            </a>
+            </NavLink>
           </div>
         </div>
 
@@ -38,7 +36,7 @@ const Hero = () => {
             </div>
 
             <div className="card-ft p-0 d-none">
-              <a href="" className="btn w-100 bg-primary text-white border-0 rounded-top-0">Buy now</a>
+              <NavLink to='/buy-now' className="btn w-100 bg-primary text-white border-0 rounded-top-0">Buy now</NavLink>
             </div>
           </div>
         </div>
