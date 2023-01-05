@@ -8,11 +8,7 @@ import Hero from './components/main/Hero';
 
 
 
-// PAGES
-
-import BuyNow from './Pages/Buy Now/BuyNow';
-import Connect from './Pages/Connect/Connect';
-import GetStarted from './Pages/Get Started/GetStarted';
+//  NAV PAGES
 import Team from './Pages/Team/Team';
 import Benefits from './Pages/Benefits/Benefits';
 import HowItWorks from './Pages/How It Works/HowItWorks';
@@ -33,17 +29,7 @@ function App() {
           <Routes>
              <Route  index element= {<Hero />}/>
              <Route path='/nft-cards' element= {<NftCards />}/>
-
-
-              {/* Routes to Created  Pages */}
-             
-             <Route path='/get-started' element= {<GetStarted />}/>
-             <Route path='/connect'  element = {<Connect />}/>
-             <Route path='/buy-now' element = {<BuyNow />}/>
-
           </Routes>
-
-          
           <HowItWorks />
           <Benefits />
           <Team />
