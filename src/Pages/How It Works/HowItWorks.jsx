@@ -2,8 +2,9 @@ import React from 'react'
 
 const HowItWorks = () => {
   return (
-    <div>
-      How It Work
+    <div id='how-it-works'>
+      How it Works
+     
     </div>
   )
 }

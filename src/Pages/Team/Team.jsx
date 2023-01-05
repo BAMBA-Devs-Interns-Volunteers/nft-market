@@ -2,8 +2,10 @@ import React from 'react'
 
 const Team = () => {
   return (
-    <div>
-      Team
+    <div id='team'>
+        Team
+    
+      
     </div>
   )
 }

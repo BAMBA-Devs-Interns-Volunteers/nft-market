@@ -2,8 +2,9 @@ import React from 'react'
 
 const Benefits = () => {
   return (
-    <div>
-      Benefits
+    <div id='benefits'>
+       Benefits
+  
     </div>
   )
 }
