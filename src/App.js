@@ -16,9 +16,6 @@ import HowItWorks from './Pages/How It Works/HowItWorks';
 
 
 
-
-
-
 function App() {
   return (
      <BrowserRouter>
