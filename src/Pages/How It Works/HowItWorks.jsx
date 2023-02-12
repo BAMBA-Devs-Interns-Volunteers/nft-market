@@ -9,7 +9,7 @@ import list from "../../assets/img/list.png";
 
 const HowItWorks = () => {
   return (
-   <section className='how-it-works'> 
+   <section className='how-it-works' id= 'how-it-works'> 
    <h1>How to create and sell your NFTs</h1>
    <div className="main-container">
    <div className='connect-your-wallet'> 
