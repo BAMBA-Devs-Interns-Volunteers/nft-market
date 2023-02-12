@@ -5,13 +5,14 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar  from './components/header/Navbar';
 import NftCards from './components/cards/NftCards';
 import Hero from './components/main/Hero';
-
+import Footer from './components/footer/Footer';
 
 
 //  NAV PAGES
 import Team from './Pages/Team/Team';
 import Benefits from './Pages/Benefits/Benefits';
 import HowItWorks from './Pages/How It Works/HowItWorks';
+
 
 
 
@@ -30,6 +31,7 @@ function App() {
           <HowItWorks />
           <Benefits />
           <Team />
+          <Footer />
         
      </BrowserRouter>
    
